@@ -1,0 +1,17 @@
+{
+  "name": "thekriken.com",
+  "version": "0.0.1",
+  "description": "The Kriken Site",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "kriken",
+    "site"
+  ],
+  "author": "Luis Montealegre",
+  "license": "MIT"
+}
