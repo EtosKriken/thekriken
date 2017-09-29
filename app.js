@@ -1,17 +1,21 @@
 'use strict';
 
-var http = require('http'),
-    pug = require('pug');
+const express = require('express'),
+      app = express(),
+      pug = require('pug');
 
-var server = http.createServer(function(request, response) {
-    response.writeHead(200, {'Cotnent-Type': "text/html"});
+    var html = pug.renderFile(__dirname + '/app/html/index.pug');
 
-    var html = pug.renderFile(__dirname + '/app/html/index.pug')
+    app.use(express.static('public'));
 
-    response.end(html)    
-});
+    app.get('/', function (req, res) {
+        res.end(html)    
+    });
 
-server.listen(process.env.PORT || 8000);
+    app.get('*', function(req, res){
+        res.end(html) 
+      });
 
-console.log("Server running at http://127.0.0.1:8000/");
-
+    app.listen(8000, function () {
+        console.log("Server running at http://127.0.0.1:8000/");    
+    });

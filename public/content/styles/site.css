@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(255,0,132); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 37%, rgba(191,0,244,1) 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,0,132,1) 0%,rgba(255,0,132,1) 37%,rgba(191,0,244,1) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,0,132,1) 0%,rgba(255,0,132,1) 37%,rgba(191,0,244,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#bf00f4',GradientType=0 ); /* IE6-9 */
+}
+
+
+@font-face {
+    font-family: 'outrun_futurebold_italic';
+    src: url('../fonts/outrun_future_bold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/outrun_future_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'outrun_futurebold';
+    src: url('../fonts/outrun_future_bold-webfont.woff2') format('woff2'),
+         url('../fonts/outrun_future_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'outrun_futureregular';
+    src: url('../fonts/outrun_future-webfont.woff2') format('woff2'),
+         url('../fonts/outrun_future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.eighties{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+    opacity: 1;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    font-family: outrun_futureregular; 
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.eighties:hover{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.big {
+    font-size: 10em;
+}
+
+@media screen and (max-width: 950px) {
+    .big {
+        font-size: 7em;
+    }    
+}
+
+@media screen and (max-width: 640px) {
+    .big {
+        font-size: 4em;
+    }    
+}
+

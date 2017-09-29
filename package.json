@@ -4,6 +4,7 @@
   "description": "The Kriken Site",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.16.0",
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {},
