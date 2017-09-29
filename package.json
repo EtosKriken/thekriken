@@ -9,12 +9,21 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "startlocal": "set IP=127.0.0.1&&npm start"
   },
   "keywords": [
     "kriken",
     "site"
   ],
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saujslayor/thekriken.git"
+  },
   "author": "Luis Montealegre",
   "license": "MIT"
 }
